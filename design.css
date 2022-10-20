@@ -1,0 +1,245 @@
+body{
+	margin:0px;
+}
+nav{
+	border:0px solid red;
+	width:100%;
+	height:70px;
+	background-color:#ddfbf8
+}
+nav section img{
+		width:80px;
+		height:70px;
+		object-fit:cover;
+		margin-top:8px;
+}
+nav section{
+	float:left;
+}
+#fish{
+	border:0px solid green;
+	width:100%;
+	height:500px;
+	background-image:url('pics/good2.jpg');
+	background-size:cover;
+	position:relative;
+	margin-top:0px;
+}
+#terw{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	background-color:rgba(0,0,0,0);
+}
+nav section:nth-child(2){
+			margin-top:20px;
+			margin-left:0px;
+			font-family:tahoma;
+			font-size:30px;
+}
+#fish article h1{
+		text-align:center;
+		color:blue;
+		font-size:60px;
+		border:0px solid red;
+		margin-top:40px;
+}
+#fish article h2{
+		text-align:center;
+		color:orange;
+		font-size:40px;
+		border:0px solid red;
+		margin-top:60px;
+}
+
+.we{
+	text-align:center;
+	font-size:30px;
+	font-family:chille;
+	font-style:italic;
+	color:blue;
+}
+
+.jul{
+	width:100%;
+	height:350px;
+	border:0px solid green;
+}
+#goos{
+	border:0px solid black;
+	width:450px;
+	height:300px;
+	margin-left:15px;
+	background-image:url('pics/benz3.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	float:left;
+	box-shadow:1px 2px 8px;	
+}
+#ddoo{
+	border:0px solid green;
+	width:200px;
+	height:200px;
+	float:left;
+	text-align:center;
+	margin-left:50px;
+	font-size:30px;
+
+}
+
+.jos{
+	width:100%;
+	height:350px;
+	border:0px solid red;
+}
+
+#dood{
+	border:0px solid green;
+	width:200px;
+	height:200px;
+	float:left;
+	text-align:center;
+	margin-left:50px;
+	font-size:30px;
+
+}
+#good{
+	border:0px solid black;
+	width:450px;
+	height:300px;
+	margin-left:60px;
+	background-image:url('pics/benz.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	float:left;
+	box-shadow:1px 2px 8px;	
+}
+#goos h2{
+	text-align:center;
+	color:orange;
+	font-family:chille;
+}
+
+#good h2{
+	text-align:center;
+	color:blue;
+	font-family:chille;
+}
+
+
+.jud{
+	width:100%;
+	height:350px;
+	border:0px solid green;
+}
+
+#soos{
+	border:0px solid black;
+	width:450px;
+	height:300px;
+	margin-left:15px;
+	background-image:url('pics/bugarti.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	float:left;
+	box-shadow:1px 2px 8px;	
+}
+#edoo{
+	border:0px solid green;
+	width:200px;
+	height:200px;
+	float:left;
+	text-align:center;
+	margin-left:50px;
+	font-size:30px;
+}
+
+#soos h2{
+	text-align:center;
+	color:orange;
+	font-family:tahoma;
+}
+
+#soos h3{
+	border:0px solid blue;
+	width:110px;
+	height:40px;
+	text-align:center;
+	color:#ddfbf8;
+	font-family:tahoma;
+	margin-top:220px;
+	margin-left:330px;
+}
+
+
+#goos h3{
+	border:0px solid blue;
+	width:110px;
+	height:40px;
+	text-align:center;
+	color:#ddfbf8;
+	font-family:tahoma;
+	margin-top:220px;
+	margin-left:330px;
+}
+
+
+
+#good h3{
+	border:0px solid blue;
+	width:110px;
+	height:40px;
+	text-align:center;
+	color:#ddfbf8;
+	font-family:tahoma;
+	margin-top:220px;
+	margin-left:330px;
+}
+
+
+
+
+/*--------media screen---------*/
+
+@media screen and (max-width:540px){
+nav section:nth-child(2){
+			font-size:15px;
+			margin-left:-15px;
+			margin-top:25px;
+}
+
+.jos{
+	width:100%;
+	height:600px;
+	border:0px solid red;
+	margin-top:200px;
+}
+
+#good{
+	border:0px solid black;
+	width:450px;
+	height:300px;
+	margin-left:60px;
+	background-image:url('pics/benz.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	float:left;
+	box-shadow:1px 2px 8px;
+	margin-top:-1207px;
+	margin-left:10px;	
+}
+
+#dood{
+	border:0px solid green;
+	width:200px;
+	height:200px;
+	float:left;
+	text-align:center;
+	margin-left:50px;
+	font-size:30px;
+	margin-top:330px;
+	margin-bottom:690px;
+}
+}
